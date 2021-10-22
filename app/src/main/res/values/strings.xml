@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rundown</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_media">Media</string>
+    <string name="title_fans">Fans</string>
+    <string name="search_title">Search Team</string>
+</resources>

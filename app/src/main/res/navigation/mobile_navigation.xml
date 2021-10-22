@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_schedule">
+
+    <fragment
+        android:id="@+id/navigation_schedule"
+        android:name="com.example.rundown.ui.schedule.ScheduleFragment"
+        android:label="@string/title_schedule"
+        tools:layout="@layout/fragment_schedule" />
+
+    <fragment
+        android:id="@+id/navigation_media"
+        android:name="com.example.rundown.ui.media.MediaFragment"
+        android:label="@string/title_media"
+        tools:layout="@layout/fragment_media" />
+
+    <fragment
+        android:id="@+id/navigation_fans"
+        android:name="com.example.rundown.ui.fans.FansFragment"
+        android:label="@string/title_fans"
+        tools:layout="@layout/fragment_fans" />
+</navigation>
